@@ -1,0 +1,4 @@
+=SUM(A2:A21)/20               #For Mean
+=STDEV(A2:A21)                  #Standard Deviation 
+=(A22-B22)/SQRT((A23*A23)/COUNT(A2:A21)+(B23*B23)/COUNT(A2:A21))  #Caculated Value for Hypothesized Mean
+=IF(I16<I8,"H0 is Accepted", "H0 is Rejected and H1 is Accepted")  #Hypothesized Mean
